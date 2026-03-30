@@ -1,4 +1,4 @@
-# snp5164.github.io
+# snp.cat
 making websites is hard, actually.
 
 consider this repo my very first attempt at trying to make something many people will publicly see
