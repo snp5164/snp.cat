@@ -3,8 +3,7 @@ p,a,h1,h2 { font-family: Arial, sans-serif; font-size: 18px; color: #72b4f1; }
 div { text-align: center; }
 
 html {
-    cursor: url('misc/img/glaceoncur.gif'), auto;
-    background-image: url('misc/img/glac_background.png');
+    background-image: url('assets/img/glac_background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
