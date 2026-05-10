@@ -3,44 +3,13 @@
 <head>
     <meta charset="utf-8"/>
     <title>uh oh</title>
-    <style type="text/css">
-        html {
-            cursor: url('https://files.catbox.moe/3lttep.png'), auto;
-            background-image: url('misc/img/glac_background.png');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            margin: 0;
-            padding: 0;
-            }
-        div { text-align: center; margin-top: 50px; }
-        p { font-family: Arial, sans-serif; font-size: 18px; color: #72b4f1; }
-        .blur-box {
-            backdrop-filter: blur(5px);
-            background: rgba(0, 0, 0, 0.65);
-            padding: 50px;
-            margin: 25px auto;
-            max-width: 1000px;
-            height: 100%;
-            border-radius: 20px;
-            }
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 <div class="blur-box">
     <p>whoops, you got 404'd. what a shame. make sure the link you're trying to visit actually exists, you know</p>
-    <img id="random-glac" width="471" height="471" alt="random glaceon"/>
+    <img id="cheese" width="320" height="320" alt="get cheesed" src="assets/img/glaceon/cheese.gif"/>
 </div>
-    <script>
-        const images = [
-            "misc/img/random glaceon/471Glaceon_Dream.png",
-            "misc/img/random glaceon/471Glaceon_Dream_2.png",
-            "misc/img/random glaceon/471Glaceon_Dream_3.png",
-            "misc/img/random glaceon/471Glaceon_Dream_4.png",
-            "misc/img/random glaceon/471Glaceon_Dream_5.png",
-        ];
-        document.getElementById('random-glac').src = images[Math.floor(Math.random() * images.length)];
-    </script>
 </body>
 </html>
