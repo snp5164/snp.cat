@@ -1,6 +1,9 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title>tyler blevins dot fortnite</title>
+  <link rel="icon" href="assets/img/tyler.jpg">
+  <meta name="viewport">
   <meta property="og:type" content="video.other">
   <meta property="og:video:url" content="https://snp.cat/assets/vid/ninja.webm" />
   <meta property="og:video:type" content="video/webm"/>
@@ -19,23 +22,24 @@
   </style> 
 </head>
 
-<html>
-    <h1>TYLER MOTHERFUCKING <a href=https://snp.cat/assets/vid/ninja.webm>NINJA</a> BLEVINS</h1>
-    <button id="music-button" onclick="this.style.display='none';document.querySelector('audio').play()">click for immersive mode (plays music)</button>
-    <audio id="audio" src="assets/aud/fortnite.ogg"></audio>
-    <br><br>
-    <form id="fortnite-form" style="display:none" action="com.epicgames.launcher://">
-      <input type="submit" value="open epic games launcher"/>
-    </form>
-    <script>
-      const audiofile = ['assets/aud/fortnite.ogg', 'assets/aud/fortnite-wahwah.mp3'];
-      document.getElementById('music-button').onclick = function() {
-        const randomFile = audiofile[Math.floor(Math.random() * audiofile.length)];
-        const audio = new Audio(randomFile);
-        audio.play();
-        this.remove();
-      };
-      document.getElementById("audio").loop = true; 
-      if (navigator.userAgent.includes('Windows')) { document.getElementById('fortnite-form').style.display = 'block'; }
-    </script>
+<body>
+  <h1>TYLER MOTHERFUCKING <a href=https://snp.cat/assets/vid/ninja.webm>NINJA</a> BLEVINS</h1>
+  <button id="music-button" onclick="this.style.display='none';document.querySelector('audio').play()">click for immersive mode (plays music)</button>
+  <audio id="audio" src="assets/aud/fortnite.ogg"></audio>
+  <br><br>
+  <form id="fortnite-form" style="display:none" action="com.epicgames.launcher://">
+    <input type="submit" value="open epic games launcher"/>
+  </form>
+  <script>
+    const audiofile = ['assets/aud/fortnite.ogg', 'assets/aud/fortnite-wahwah.mp3'];
+    document.getElementById('music-button').onclick = function() {
+      const randomFile = audiofile[Math.floor(Math.random() * audiofile.length)];
+      const audio = new Audio(randomFile);
+      audio.play();
+      this.remove();
+    };
+    document.getElementById("audio").loop = true; 
+    if (navigator.userAgent.includes('Windows')) { document.getElementById('fortnite-form').style.display = 'block'; }
+  </script>
+</body>
 </html>

@@ -1,6 +1,10 @@
-p,a,h1,h2 { font-family: Arial, sans-serif; font-size: 18px; color: #72b4f1; }
+p,a,h1 { font-family: Arial, sans-serif; font-size: 18px; color: #72b4f1; }
 
 div { text-align: center; }
+
+body {
+    margin: 0;
+}
 
 html {
     background-image: url('assets/img/glac_background.png');
@@ -8,16 +12,22 @@ html {
     background-position: center;
     background-attachment: fixed;
     margin: 0;
-    padding: 0;
     }
 
 .blur-box {
     backdrop-filter: blur(5px);
     background: rgba(0, 0, 0, 0.65);
     padding: 50px;
+    margin: 0px auto;
+    max-width: 1000px;
+    }
+
+.blur-box-round {
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.65);
+    padding: 50px;
     margin: 25px auto;
     max-width: 1000px;
-    height: 100%;
     border-radius: 20px;
     }
 
