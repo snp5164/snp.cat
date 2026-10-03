@@ -6,7 +6,7 @@ form.addEventListener('submit', async () => {
     send.disabled = true;
     username.disabled = true;
     content.disabled = true;
-    let res = await fetch('https://penis.catboy.sex/', {
+    let res = await fetch('https://penis.snp.cat/', {
         method: 'POST',
         headers: {'Content-Type': 'application/json',},
         body: JSON.stringify({name: username.value, content: content.value,}),
